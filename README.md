@@ -1,5 +1,7 @@
 # Golf Live
-Proyecto individual de frontend para BBK The Bridge
+Proyecto individual de frontend para BBK The Bridge, 
+por Rogelio Suárez Tejera
+Marzo 2025
 
 # Descripción general de la API
 
