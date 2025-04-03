@@ -1,0 +1,971 @@
+[
+  {
+    "description": "Former LIV Golf player Eugenio Chacarra overcame a slow start to win the Indian Open for his first European tour title.",
+    "headline": "Ex-LIV golfer Eugenio Chacarra wins Indian Open for 1st European tour title",
+    "images": [
+      {
+        "dataSourceIdentifier": "ed7bed529bf12",
+        "id": 44465642,
+        "type": "header",
+        "name": "Eugenio Chacarra  [1296x729]",
+        "credit": "Luke Walker/Getty Images",
+        "height": 729,
+        "width": 1296,
+        "url": "https://a.espncdn.com/photo/2025/0330/r1471281_1296x729_16-9.jpg"
+      }
+    ],
+    "link": "https://www.espn.com/golf/story/_/id/44465640/ex-liv-golfer-eugenio-chacarra-wins-indian-open-1st-european-tour-title",
+    "published": "2025-03-30T12:47:00Z",
+    "dataSourceIdentifier": "9220f7e8a2bd3",
+    "type": "HeadlineNews",
+    "premium": false,
+    "lastModified": "2025-03-30T13:19:45Z",
+    "categories": [
+      {
+        "id": 535988,
+        "description": "LIV Golf Invitational Series",
+        "type": "league",
+        "sportId": 1109,
+        "leagueId": 1109,
+        "createDate": ""
+      },
+      {
+        "id": 409224,
+        "description": "news",
+        "type": "topic",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 154826,
+        "description": "European Tour",
+        "type": "league",
+        "sportId": 7002,
+        "leagueId": 7002,
+        "createDate": ""
+      },
+      {
+        "id": 384640,
+        "description": "Eugenio Chacarra",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 9582,
+        "description": "Golf",
+        "type": "league",
+        "sportId": 1100,
+        "leagueId": 1100,
+        "createDate": ""
+      },
+      {
+        "id": 154818,
+        "description": "PGA TOUR",
+        "type": "league",
+        "sportId": 1106,
+        "leagueId": 1106,
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      }
+    ]
+  },
+  {
+    "description": "From sushi and wagyu beef to chicken and macaroni and cheese, the Masters Champions Dinner has had a pretty diverse menu. Here's Scottie Scheffler's selection and more from dinners past.",
+    "headline": "Masters Champions Dinner menus throughout the years",
+    "images": [
+      {
+        "dataSourceIdentifier": "da4f4bdd79452",
+        "id": 44317004,
+        "type": "header",
+        "name": "Scottie Scheffler [608x342]",
+        "credit": "Ben Jared/PGA TOUR via Getty Images",
+        "height": 342,
+        "width": 608,
+        "url": "https://a.espncdn.com/photo/2025/0319/r1466412_608x342_16-9.jpg"
+      },
+      {
+        "dataSourceIdentifier": "a3e448653d44e",
+        "id": 39907649,
+        "type": "header",
+        "name": "Rahm menu [608x342]",
+        "caption": "Jon Rahm's Champions Dinner menu has some real treats.",
+        "credit": "Masters/X",
+        "height": 342,
+        "width": 608,
+        "url": "https://a.espncdn.com/photo/2024/0409/r1316470_608x342_16-9.png"
+      }
+    ],
+    "link": "https://www.espn.com/golf/story/_/id/39907605/masters-champions-dinner-menus-jon-rahm-phil-mickelson-tiger-woods",
+    "published": "2025-03-19T17:11:00Z",
+    "dataSourceIdentifier": "ff811b9886a93",
+    "type": "Story",
+    "premium": false,
+    "lastModified": "2025-03-19T17:11:52Z",
+    "categories": [
+      {
+        "id": 10984,
+        "description": "Zach Johnson",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 9520,
+        "description": "Charl Schwartzel",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 127664,
+        "description": "Scottie Scheffler",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 96922,
+        "description": "Hideki Matsuyama",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 75725,
+        "description": "Jordan Spieth",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 32655,
+        "description": "Dustin Johnson",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 8614,
+        "description": "Vijay Singh",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 535988,
+        "description": "LIV Golf Invitational Series",
+        "type": "league",
+        "sportId": 1109,
+        "leagueId": 1109,
+        "createDate": ""
+      },
+      {
+        "id": 8645,
+        "description": "Mike Weir",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 92226,
+        "description": "Patrick Reed",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 8478,
+        "description": "Sergio Garcia",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 154818,
+        "description": "PGA TOUR",
+        "type": "league",
+        "sportId": 1106,
+        "leagueId": 1106,
+        "createDate": ""
+      },
+      {
+        "id": 409222,
+        "description": "daily",
+        "type": "topic",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 77182,
+        "description": "Danny Willett",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 8515,
+        "description": "Trevor Immelman",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 8651,
+        "description": "Tiger Woods",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 8611,
+        "description": "Adam Scott",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 9582,
+        "description": "Golf",
+        "type": "league",
+        "sportId": 1100,
+        "leagueId": 1100,
+        "createDate": ""
+      },
+      {
+        "id": 8426,
+        "description": "Ángel Cabrera",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 133137,
+        "description": "Jon Rahm",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 14917,
+        "description": "Bubba Watson",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 8566,
+        "description": "Phil Mickelson",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      }
+    ]
+  },
+  {
+    "description": "Joaquín Niemann of Chile won the LIV Golf Singapore by five strokes Sunday, securing his second victory in four events this season.",
+    "headline": "Joaquín Niemann rolls to victory at LIV Golf Singapore event",
+    "images": [
+      {
+        "dataSourceIdentifier": "f7c7657f1e9c6",
+        "id": 44274509,
+        "type": "header",
+        "name": "Joaquin Niemann [1296x729]",
+        "credit": "Thananuwat Srirasant/Getty Images",
+        "height": 729,
+        "width": 1296,
+        "url": "https://a.espncdn.com/photo/2025/0316/r1464998_1296x729_16-9.jpg"
+      }
+    ],
+    "link": "https://www.espn.com/golf/story/_/id/44274713/joaquin-niemann-rolls-victory-liv-golf-singapore-event",
+    "published": "2025-03-16T11:44:00Z",
+    "dataSourceIdentifier": "03af5a2751180",
+    "type": "HeadlineNews",
+    "premium": false,
+    "lastModified": "2025-03-16T12:22:04Z",
+    "categories": [
+      {
+        "id": 535988,
+        "description": "LIV Golf Invitational Series",
+        "type": "league",
+        "sportId": 1109,
+        "leagueId": 1109,
+        "createDate": ""
+      },
+      {
+        "id": 409224,
+        "description": "news",
+        "type": "topic",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 168648,
+        "description": "Joaquín Niemann",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 9582,
+        "description": "Golf",
+        "type": "league",
+        "sportId": 1100,
+        "leagueId": 1100,
+        "createDate": ""
+      },
+      {
+        "id": 154818,
+        "description": "PGA TOUR",
+        "type": "league",
+        "sportId": 1106,
+        "leagueId": 1106,
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      }
+    ]
+  },
+  {
+    "description": "Joaquín Niemann shot a 64 to move up the leaderboard and tie Dustin Johnson for the second-round lead at LIV Golf Singapore.",
+    "headline": "Joaquin Niemann, Dustin Johnson lead LIV Golf Singapore",
+    "images": [
+      {
+        "dataSourceIdentifier": "7bf88734f364f",
+        "id": 44263086,
+        "type": "header",
+        "name": "Joaquín Niemann [600x400]",
+        "credit": "Photo by Thananuwat Srirasant/Getty Images",
+        "height": 400,
+        "width": 600,
+        "url": "https://a.espncdn.com/photo/2025/0315/r1464569_600x400_3-2.jpg"
+      }
+    ],
+    "link": "https://www.espn.com/golf/story/_/id/44263030/joaquin-niemann-dustin-johnson-lead-liv-golf-singapore",
+    "published": "2025-03-15T14:51:00Z",
+    "dataSourceIdentifier": "350cfc9c47367",
+    "type": "HeadlineNews",
+    "premium": false,
+    "lastModified": "2025-03-16T11:02:38Z",
+    "categories": [
+      {
+        "id": 535988,
+        "description": "LIV Golf Invitational Series",
+        "type": "league",
+        "sportId": 1109,
+        "leagueId": 1109,
+        "createDate": ""
+      },
+      {
+        "id": 32655,
+        "description": "Dustin Johnson",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 409224,
+        "description": "news",
+        "type": "topic",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 9582,
+        "description": "Golf",
+        "type": "league",
+        "sportId": 1100,
+        "leagueId": 1100,
+        "createDate": ""
+      },
+      {
+        "id": 168648,
+        "description": "Joaquín Niemann",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      }
+    ]
+  },
+  {
+    "description": "Five-time major champion Brooks Koepka pushed back on Fred Couples' recent comments that he was unhappy playing in the LIV Golf League.",
+    "headline": "Brooks Koepka says he plans to fulfill LIV Golf League contract",
+    "images": [
+      {
+        "dataSourceIdentifier": "fdda98fc03091",
+        "id": 41249149,
+        "type": "header",
+        "name": "Brooks Koepka [1296x729]",
+        "credit": "LIV Golf via AP",
+        "height": 729,
+        "width": 1296,
+        "url": "https://a.espncdn.com/photo/2024/0913/r1386047_1296x729_16-9.jpg"
+      },
+      {
+        "type": "Media",
+        "name": "Monahan: 'Fully committed' to PGA Tour merger with LIV Golf",
+        "caption": "PGA commissioner Jay Monahan discusses the process of unifying LIV Golf and the PGA.\n\n\n\n",
+        "height": 324,
+        "width": 576,
+        "url": "https://a.espncdn.com/media/motion/2025/0311/ss_20250311_142723499_2803661876/ss_20250311_142723499_2803661876.jpg"
+      }
+    ],
+    "link": "https://www.espn.com/golf/story/_/id/44219111/brooks-koepka-says-plans-fulfill-liv-golf-league-contract",
+    "published": "2025-03-12T13:17:00Z",
+    "dataSourceIdentifier": "2692571ee5994",
+    "type": "HeadlineNews",
+    "premium": false,
+    "lastModified": "2025-03-12T14:41:11Z",
+    "categories": [
+      {
+        "id": 535988,
+        "description": "LIV Golf Invitational Series",
+        "type": "league",
+        "sportId": 1109,
+        "leagueId": 1109,
+        "createDate": ""
+      },
+      {
+        "id": 409224,
+        "description": "news",
+        "type": "topic",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 106164,
+        "description": "Brooks Koepka",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 9582,
+        "description": "Golf",
+        "type": "league",
+        "sportId": 1100,
+        "leagueId": 1100,
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      }
+    ]
+  },
+  {
+    "description": "PGA commissioner Jay Monahan discusses the process of unifying LIV Golf and the PGA.\n\n\n",
+    "headline": "Monahan: 'Fully committed' to PGA Tour merger with LIV Golf",
+    "images": [
+      {
+        "name": "Monahan: 'Fully committed' to PGA Tour merger with LIV Golf",
+        "caption": "PGA commissioner Jay Monahan discusses the process of unifying LIV Golf and the PGA.\n\n\n\n",
+        "alt": "",
+        "height": 324,
+        "width": 576,
+        "url": "https://a.espncdn.com/media/motion/2025/0311/ss_20250311_142723499_2803661876/ss_20250311_142723499_2803661876.jpg"
+      }
+    ],
+    "link": "https://www.espn.com/video/clip?id=44208349",
+    "published": "2025-03-11T18:27:22Z",
+    "dataSourceIdentifier": "e754601845698",
+    "type": "Media",
+    "premium": false,
+    "lastModified": "2025-03-12T13:53:48Z",
+    "categories": [
+      {
+        "id": 535988,
+        "description": "LIV Golf Invitational Series",
+        "type": "league",
+        "sportId": 1109,
+        "leagueId": 1109,
+        "createDate": ""
+      },
+      {
+        "id": 154818,
+        "description": "PGA TOUR",
+        "type": "league",
+        "sportId": 1106,
+        "leagueId": 1106,
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      }
+    ]
+  },
+  {
+    "description": "Sergio Garcia carded a 7-under 63 to capture a double victory at LIV Golf Hong Kong, winning both the individual and team titles. Phil Mickelson shot a 64 to stand on his first podium as a LIV member.",
+    "headline": "Sergio Garcia wins LIV Hong Kong; Phil Mickelson gets first top-3",
+    "images": [
+      {
+        "dataSourceIdentifier": "b1d0eca459c13",
+        "id": 42476141,
+        "type": "header",
+        "name": "Sergio Garcia  [1296x729]",
+        "credit": "David Cannon/Getty Images",
+        "height": 729,
+        "width": 1296,
+        "url": "https://a.espncdn.com/photo/2024/1119/r1416714_1296x729_16-9.jpg"
+      }
+    ],
+    "link": "https://www.espn.com/golf/story/_/id/44178110/sergio-garcia-wins-liv-hong-kong-phil-mickelson-gets-first-top-3",
+    "published": "2025-03-09T15:20:00Z",
+    "dataSourceIdentifier": "4c78adf4c3a58",
+    "type": "HeadlineNews",
+    "premium": false,
+    "lastModified": "2025-03-09T15:27:30Z",
+    "categories": [
+      {
+        "id": 535988,
+        "description": "LIV Golf Invitational Series",
+        "type": "league",
+        "sportId": 1109,
+        "leagueId": 1109,
+        "createDate": ""
+      },
+      {
+        "id": 409224,
+        "description": "news",
+        "type": "topic",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 9582,
+        "description": "Golf",
+        "type": "league",
+        "sportId": 1100,
+        "leagueId": 1100,
+        "createDate": ""
+      },
+      {
+        "id": 8478,
+        "description": "Sergio Garcia",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 8566,
+        "description": "Phil Mickelson",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      }
+    ]
+  }
+]
