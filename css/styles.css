@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #00ac1c;
+    position: fixed;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom:0;
+}
+
+header h5 {
+    height: 3rem;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+#header__title {
+    display: flex;  /* Habilita flexbox */
+    align-items: center; /* Alinea verticalmente */
+    padding: 0 10px 0; /* Espaciado opcional */
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    min-height: calc(100vh - 120px); /* Ajusta según el alto de header y footer */
+    padding: 3rem 20px 2rem 20px;
+    background-color: red;
+}
+
+main.home__container {
+    padding-top: 3rem;
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+    font-size: 1.2rem;
+    flex-direction: column;
+
+    background-image: url('../assets/bgMain.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;  
+}
+
+main.news__container {
+    padding-top: 6rem; /* abre hueco para el buscador bajo el header*/
+}
+
+.main__button {
+    background-color: rgb(225 225 225 / 75%);
+    margin : 5px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+}
+
+.data__container {
+    background-color: #d9d9d9;
+    margin : 5px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+}
+
+.news__card img {
+    width: 100%;
+}
+
+.news__card {
+    border-radius: 5%;
+    border: none;
+    margin: 11% 0%;
+    padding-bottom: 4%;
+    overflow: hidden;
+    background-color: lightgray;
+    /* sombra */
+    -webkit-box-shadow: 5px 6px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 6px 10px 0px rgba(0,0,0,0.75);
+}
+
+.news__card h5 {
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1rem;
+}
+
+.news__card h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 2% 0 2%;
+}
+
+.news__card p {
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin: 0 2% 0;
+}
+
+.news__card a {
+    margin: 0 0 0% 70%;
+    padding-bottom: 5%;
+    font-size: 1rem;
+}
+
+#form__buscar {
+    display: flex;
+    background-color: lightgray;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#select__league {
+    height: 2.5rem;
+    border-radius: 1rem;
+    margin: 1% 0% 1% 2%;
+    padding: 0% 2%;
+    width: 80%;
+    /*font-size: 1rem;*/
+}
+
+#button__back {
+    height: 3rem;
+    padding: 9px 0;
+}
+
+footer h5 {
+    height: 2rem;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
+
+
+
+
+
+
+

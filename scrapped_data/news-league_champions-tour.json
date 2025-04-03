@@ -1,0 +1,72 @@
+[
+  {
+    "description": "Fred Couples gets a birdie on 13, his second of the day.",
+    "headline": "Couples scores a birdie on 13",
+    "images": [
+      {
+        "name": "Couples scores a birdie on 13",
+        "caption": "Fred Couples gets a birdie on 13, his second of the day.",
+        "alt": "",
+        "height": 324,
+        "width": 576,
+        "url": "https://a.espncdn.com/media/motion/2023/0406/dm_230406_Fred_Couples_birdie/dm_230406_Fred_Couples_birdie.jpg"
+      }
+    ],
+    "link": "https://www.espn.com/video/clip?id=36094038",
+    "published": "2023-04-06T18:49:55Z",
+    "dataSourceIdentifier": "88ccaf3cce704",
+    "type": "Media",
+    "premium": false,
+    "lastModified": "2024-02-01T19:34:09Z",
+    "categories": [
+      {
+        "id": 9582,
+        "description": "Golf",
+        "type": "league",
+        "sportId": 1100,
+        "leagueId": 1100,
+        "createDate": ""
+      },
+      {
+        "id": 8444,
+        "description": "Fred Couples",
+        "type": "athlete",
+        "sportId": 1100,
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": 154824,
+        "description": "PGA TOUR Champions",
+        "type": "league",
+        "sportId": 1105,
+        "leagueId": 1105,
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      },
+      {
+        "id": "",
+        "description": "",
+        "type": "guid",
+        "sportId": "",
+        "leagueId": "",
+        "createDate": ""
+      }
+    ]
+  }
+]

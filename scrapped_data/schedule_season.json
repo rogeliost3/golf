@@ -1,0 +1,1323 @@
+{
+  "events": [
+    {
+      "name": "The Sentry",
+      "startDate": "2025-01-02T08:00Z",
+      "endDate": "2025-01-05T08:00Z",
+      "date": "Jan 2-5",
+      "detail": "Jan 2-5",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703489",
+      "athlete": {
+        "name": "Hideki Matsuyama",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+        "citizenship": "Japan",
+        "link": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Kapalua Resort (Plantation Course) - Kapalua, HI",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "257 (-35)",
+      "isPostponedOrCanceled": false,
+      "prize": "$3,600,000"
+    },
+    {
+      "name": "Sony Open in Hawaii",
+      "startDate": "2025-01-09T08:00Z",
+      "endDate": "2025-01-12T08:00Z",
+      "date": "Jan 9-12",
+      "detail": "Jan 9-12",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703490",
+      "athlete": {
+        "name": "Nick Taylor",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+        "citizenship": "Canada",
+        "link": "https://www.espn.com/golf/player/_/id/3792/nick-taylor"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Waialae Country Club - Honolulu, HI",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$8,700,000",
+      "score": "264 (-16)",
+      "isPostponedOrCanceled": false,
+      "prize": "$1,566,000"
+    },
+    {
+      "name": "The American Express",
+      "startDate": "2025-01-16T08:00Z",
+      "endDate": "2025-01-19T08:00Z",
+      "date": "Jan 16-19",
+      "detail": "Jan 16-19",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703491",
+      "athlete": {
+        "name": "Sepp Straka",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+        "citizenship": "Austria",
+        "link": "https://www.espn.com/golf/player/_/id/8961/sepp-straka"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "La Quinta Country Club - La Quinta, CA",
+            "skipCityOrNameValidation": true
+          }
+        },
+        {
+          "venue": {
+            "fullName": "PGA West (Nicklaus Tournament Course) - La Quinta, CA",
+            "skipCityOrNameValidation": true
+          }
+        },
+        {
+          "venue": {
+            "fullName": "Pete Dye Stadium Course - La Quinta, CA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$8,800,000",
+      "score": "263 (-25)",
+      "isPostponedOrCanceled": false,
+      "prize": "$1,584,000"
+    },
+    {
+      "name": "Farmers Insurance Open",
+      "startDate": "2025-01-22T08:00Z",
+      "endDate": "2025-01-25T08:00Z",
+      "date": "Jan 22-25",
+      "detail": "Jan 22-25",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703492",
+      "athlete": {
+        "name": "Harris English",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/5408/harris-english"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Torrey Pines (North Course) - La Jolla, CA",
+            "skipCityOrNameValidation": true
+          }
+        },
+        {
+          "venue": {
+            "fullName": "Torrey Pines (South Course) - La Jolla, CA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,300,000",
+      "score": "280 (-8)",
+      "isPostponedOrCanceled": false,
+      "prize": "$1,674,000"
+    },
+    {
+      "name": "AT&T Pebble Beach Pro-Am",
+      "startDate": "2025-01-30T08:00Z",
+      "endDate": "2025-02-02T08:00Z",
+      "date": "Jan 30-Feb 2",
+      "detail": "Jan 30-Feb 2",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703493",
+      "athlete": {
+        "name": "Rory McIlroy",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png",
+        "citizenship": "Northern Ireland",
+        "link": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Spyglass Hill GC - Pebble Beach, CA",
+            "skipCityOrNameValidation": true
+          }
+        },
+        {
+          "venue": {
+            "fullName": "Pebble Beach Golf Links - Pebble Beach, CA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "267 (-21)",
+      "isPostponedOrCanceled": false,
+      "prize": "$3,600,000"
+    },
+    {
+      "name": "WM Phoenix Open",
+      "startDate": "2025-02-06T08:00Z",
+      "endDate": "2025-02-09T08:00Z",
+      "date": "Feb 6-9",
+      "detail": "Feb 6-9",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703494",
+      "athlete": {
+        "name": "Thomas Detry",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+        "citizenship": "Belgium",
+        "link": "https://www.espn.com/golf/player/_/id/4837/thomas-detry"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC Scottsdale (Stadium Course) - Scottsdale, AZ",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,200,000",
+      "score": "260 (-24)",
+      "isPostponedOrCanceled": false,
+      "prize": "$1,656,000"
+    },
+    {
+      "name": "The Genesis Invitational",
+      "startDate": "2025-02-13T08:00Z",
+      "endDate": "2025-02-16T08:00Z",
+      "date": "Feb 13-16",
+      "detail": "Feb 13-16",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703495",
+      "athlete": {
+        "name": "Ludvig Åberg",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+        "citizenship": "Sweden",
+        "link": "https://www.espn.com/golf/player/_/id/4375972/ludvig-aberg"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Torrey Pines (South Course) - La Jolla, CA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "276 (-12)",
+      "isPostponedOrCanceled": false,
+      "prize": "$4,000,000"
+    },
+    {
+      "name": "Mexico Open at VidantaWorld",
+      "startDate": "2025-02-20T08:00Z",
+      "endDate": "2025-02-23T08:00Z",
+      "date": "Feb 20-23",
+      "detail": "Feb 20-23",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703496",
+      "athlete": {
+        "name": "Brian Campbell",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/9525/brian-campbell"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Vidanta Vallarta - Nuevo Vallarta, Mexico",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$7,000,000",
+      "score": "264 (-20)",
+      "isPostponedOrCanceled": false,
+      "prize": "$1,260,000"
+    },
+    {
+      "name": "Cognizant Classic in The Palm Beaches",
+      "startDate": "2025-02-27T08:00Z",
+      "endDate": "2025-03-02T08:00Z",
+      "date": "Feb 27-Mar 2",
+      "detail": "Feb 27-Mar 2",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703497",
+      "athlete": {
+        "name": "Joe Highsmith",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/4868733/joe-highsmith"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "PGA National Resort & Spa (The Champion) - Palm Beach Gardens, FL",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,200,000",
+      "score": "265 (-19)",
+      "isPostponedOrCanceled": false,
+      "prize": "$1,656,000"
+    },
+    {
+      "name": "Arnold Palmer Invitational pres. by Mastercard",
+      "startDate": "2025-03-06T08:00Z",
+      "endDate": "2025-03-09T08:00Z",
+      "date": "Mar 6-9",
+      "detail": "Mar 6-9",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703498",
+      "athlete": {
+        "name": "Russell Henley",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/5409/russell-henley"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Arnold Palmer's Bay Hill Club & Lodge - Orlando, FL",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "277 (-11)",
+      "isPostponedOrCanceled": false,
+      "prize": "$4,000,000"
+    },
+    {
+      "name": "Puerto Rico Open",
+      "startDate": "2025-03-06T08:00Z",
+      "endDate": "2025-03-09T08:00Z",
+      "date": "Mar 6-9",
+      "detail": "Mar 6-9",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703499",
+      "athlete": {
+        "name": "Karl Vilips",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+        "citizenship": "Australia",
+        "link": "https://www.espn.com/golf/player/_/id/5147097/karl-vilips"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Grand Reserve Country Club - Rio Grande, Puerto Rico",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$4,000,000",
+      "score": "262 (-26)",
+      "isPostponedOrCanceled": false,
+      "prize": "$720,000"
+    },
+    {
+      "name": "THE PLAYERS Championship",
+      "startDate": "2025-03-13T07:00Z",
+      "endDate": "2025-03-17T07:00Z",
+      "date": "Mar 13-17",
+      "detail": "Mar 13-17",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703500",
+      "athlete": {
+        "name": "Rory McIlroy",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png",
+        "citizenship": "Northern Ireland",
+        "link": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC Sawgrass (THE PLAYERS Stadium Course) - Ponte Vedra Beach, FL",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$25,000,000",
+      "score": "276 (-12)",
+      "isPostponedOrCanceled": false,
+      "prize": "$4,500,000"
+    },
+    {
+      "name": "Valspar Championship",
+      "startDate": "2025-03-20T07:00Z",
+      "endDate": "2025-03-23T07:00Z",
+      "date": "Mar 20-23",
+      "detail": "Mar 20-23",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703501",
+      "athlete": {
+        "name": "Viktor Hovland",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+        "citizenship": "Norway",
+        "link": "https://www.espn.com/golf/player/_/id/4364873/viktor-hovland"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Innisbrook Resort (Copperhead Course) - Palm Harbor, FL",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$8,700,000",
+      "score": "273 (-11)",
+      "isPostponedOrCanceled": false,
+      "prize": "$1,566,000"
+    },
+    {
+      "name": "Texas Children's Houston Open",
+      "startDate": "2025-03-27T07:00Z",
+      "endDate": "2025-03-30T07:00Z",
+      "date": "Mar 27-30",
+      "detail": "Mar 27-30",
+      "description": "Final",
+      "status": "post",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703502",
+      "athlete": {
+        "name": "Min Woo Lee",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+        "citizenship": "Australia",
+        "link": "https://www.espn.com/golf/player/_/id/4410932/min-woo-lee"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Memorial Park Golf Course - Houston, TX",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,500,000",
+      "score": "260 (-20)",
+      "isPostponedOrCanceled": false,
+      "prize": "$1,710,000"
+    },
+    {
+      "name": "Valero Texas Open",
+      "startDate": "2025-04-03T07:00Z",
+      "endDate": "2025-04-06T07:00Z",
+      "date": "Apr 3-6",
+      "detail": "Apr 3-6",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703503",
+      "athlete": {
+        "name": "Akshay Bhatia",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/4419142/akshay-bhatia"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC San Antonio (Oaks Course) - San Antonio, TX",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,500,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Masters Tournament",
+      "startDate": "2025-04-10T07:00Z",
+      "endDate": "2025-04-13T07:00Z",
+      "date": "Apr 10-13",
+      "detail": "Apr 10-13",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703504",
+      "athlete": {
+        "name": "Scottie Scheffler",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Augusta National Golf Club - Augusta, GA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false,
+      "isMajor": true
+    },
+    {
+      "name": "RBC Heritage",
+      "startDate": "2025-04-17T07:00Z",
+      "endDate": "2025-04-20T07:00Z",
+      "date": "Apr 17-20",
+      "detail": "Apr 17-20",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703505",
+      "athlete": {
+        "name": "Scottie Scheffler",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Harbour Town Golf Links - Hilton Head Island, SC",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Corales Puntacana Championship",
+      "startDate": "2025-04-17T07:00Z",
+      "endDate": "2025-04-20T07:00Z",
+      "date": "Apr 17-20",
+      "detail": "Apr 17-20",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703506",
+      "athlete": {
+        "name": "Billy Horschel",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/1651/billy-horschel"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Puntacana Resort & Club (Corales Golf Course) - Punta Cana, Dominican Republic",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$4,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Zurich Classic of New Orleans",
+      "startDate": "2025-04-24T07:00Z",
+      "endDate": "2025-04-27T07:00Z",
+      "date": "Apr 24-27",
+      "detail": "Apr 24-27",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703507",
+      "athlete": {},
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC Louisiana - Avondale, LA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,200,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "THE CJ CUP Byron Nelson",
+      "startDate": "2025-05-01T07:00Z",
+      "endDate": "2025-05-04T07:00Z",
+      "date": "May 1-4",
+      "detail": "May 1-4",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703508",
+      "athlete": {
+        "name": "Taylor Pendrith",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+        "citizenship": "Canada",
+        "link": "https://www.espn.com/golf/player/_/id/9658/taylor-pendrith"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC Craig Ranch - McKinney, TX",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,900,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Truist Championship",
+      "startDate": "2025-05-08T07:00Z",
+      "endDate": "2025-05-11T07:00Z",
+      "date": "May 8-11",
+      "detail": "May 8-11",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703509",
+      "athlete": {
+        "name": "Rory McIlroy",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png",
+        "citizenship": "Northern Ireland",
+        "link": "https://www.espn.com/golf/player/_/id/3470/rory-mcilroy"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "The Philadelphia Cricket Club (Wissahickon Course) - Philadelphia, PA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "ONEflight Myrtle Beach Classic",
+      "startDate": "2025-05-08T07:00Z",
+      "endDate": "2025-05-11T07:00Z",
+      "date": "May 8-11",
+      "detail": "May 8-11",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703510",
+      "athlete": {
+        "name": "Chris Gotterup",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/4690755/chris-gotterup"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Dunes Golf & Beach Club - Myrtle Beach, SC",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$4,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "PGA Championship",
+      "startDate": "2025-05-15T07:00Z",
+      "endDate": "2025-05-18T07:00Z",
+      "date": "May 15-18",
+      "detail": "May 15-18",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703511",
+      "athlete": {
+        "name": "Xander Schauffele",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Quail Hollow Club - Charlotte, NC",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false,
+      "isMajor": true
+    },
+    {
+      "name": "Charles Schwab Challenge",
+      "startDate": "2025-05-22T07:00Z",
+      "endDate": "2025-05-25T07:00Z",
+      "date": "May 22-25",
+      "detail": "May 22-25",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703512",
+      "athlete": {
+        "name": "Davis Riley",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/10058/davis-riley"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Colonial Country Club - Fort Worth, TX",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,500,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "the Memorial Tournament pres. by Workday",
+      "startDate": "2025-05-29T07:00Z",
+      "endDate": "2025-06-01T07:00Z",
+      "date": "May 29-Jun 1",
+      "detail": "May 29-Jun 1",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703513",
+      "athlete": {
+        "name": "Scottie Scheffler",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Muirfield Village Golf Club - Dublin, OH",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "RBC Canadian Open",
+      "startDate": "2025-06-05T07:00Z",
+      "endDate": "2025-06-08T07:00Z",
+      "date": "Jun 5-8",
+      "detail": "Jun 5-8",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703514",
+      "athlete": {
+        "name": "Robert MacIntyre",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/sct.png",
+        "citizenship": "Scotland",
+        "link": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC Toronto at Osprey Valley (North Course) - Caledon, ON",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,800,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "U.S. Open",
+      "startDate": "2025-06-12T07:00Z",
+      "endDate": "2025-06-15T07:00Z",
+      "date": "Jun 12-15",
+      "detail": "Jun 12-15",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703515",
+      "athlete": {
+        "name": "Bryson DeChambeau",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Oakmont Country Club - Oakmont, PA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false,
+      "isMajor": true
+    },
+    {
+      "name": "Travelers Championship",
+      "startDate": "2025-06-19T07:00Z",
+      "endDate": "2025-06-22T07:00Z",
+      "date": "Jun 19-22",
+      "detail": "Jun 19-22",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703516",
+      "athlete": {
+        "name": "Scottie Scheffler",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC River Highlands - Cromwell, CT",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Rocket Classic",
+      "startDate": "2025-06-26T07:00Z",
+      "endDate": "2025-06-29T07:00Z",
+      "date": "Jun 26-29",
+      "detail": "Jun 26-29",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703517",
+      "athlete": {
+        "name": "Cam Davis",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+        "citizenship": "Australia",
+        "link": "https://www.espn.com/golf/player/_/id/10863/cam-davis"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Detroit Golf Club - Detroit, MI",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$9,600,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "John Deere Classic",
+      "startDate": "2025-07-03T07:00Z",
+      "endDate": "2025-07-06T07:00Z",
+      "date": "Jul 3-6",
+      "detail": "Jul 3-6",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703518",
+      "athlete": {
+        "name": "Davis Thompson",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/4602218/davis-thompson"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC Deere Run - Silvis, IL",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$8,400,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Genesis Scottish Open",
+      "startDate": "2025-07-10T07:00Z",
+      "endDate": "2025-07-13T07:00Z",
+      "date": "Jul 10-13",
+      "detail": "Jul 10-13",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703519",
+      "athlete": {
+        "name": "Robert MacIntyre",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/sct.png",
+        "citizenship": "Scotland",
+        "link": "https://www.espn.com/golf/player/_/id/11378/robert-macintyre"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "The Renaissance Club - North Berwick, Scotland",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "ISCO Championship",
+      "startDate": "2025-07-10T07:00Z",
+      "endDate": "2025-07-13T07:00Z",
+      "date": "Jul 10-13",
+      "detail": "Jul 10-13",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703520",
+      "athlete": {
+        "name": "Harry Hall",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+        "citizenship": "England",
+        "link": "https://www.espn.com/golf/player/_/id/4589438/harry-hall"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Hurstbourne Country Club - Louisville, KY",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$4,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "The Open",
+      "startDate": "2025-07-17T07:00Z",
+      "endDate": "2025-07-20T07:00Z",
+      "date": "Jul 17-20",
+      "detail": "Jul 17-20",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703521",
+      "athlete": {
+        "name": "Xander Schauffele",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/10140/xander-schauffele"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Royal Portrush Golf Club - Portrush, Northern Ireland",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false,
+      "isMajor": true
+    },
+    {
+      "name": "Barracuda Championship",
+      "startDate": "2025-07-17T07:00Z",
+      "endDate": "2025-07-20T07:00Z",
+      "date": "Jul 17-20",
+      "detail": "Jul 17-20",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703522",
+      "athlete": {
+        "name": "Nick Dunlap",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/4832046/nick-dunlap"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Tahoe Mountain Club (Old Greenwood) - Truckee, CA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$4,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "3M Open",
+      "startDate": "2025-07-24T07:00Z",
+      "endDate": "2025-07-27T07:00Z",
+      "date": "Jul 24-27",
+      "detail": "Jul 24-27",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703523",
+      "athlete": {
+        "name": "Jhonattan Vegas",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/ven.png",
+        "citizenship": "Venezuela",
+        "link": "https://www.espn.com/golf/player/_/id/1030/jhonattan-vegas"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC Twin Cities - Blaine, MN",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$8,400,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Wyndham Championship",
+      "startDate": "2025-07-31T07:00Z",
+      "endDate": "2025-08-03T07:00Z",
+      "date": "Jul 31-Aug 3",
+      "detail": "Jul 31-Aug 3",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703524",
+      "athlete": {
+        "name": "Aaron Rai",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+        "citizenship": "England",
+        "link": "https://www.espn.com/golf/player/_/id/10906/aaron-rai"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Sedgefield Country Club - Greensboro, NC",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$8,200,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "FedEx St. Jude Championship",
+      "startDate": "2025-08-07T07:00Z",
+      "endDate": "2025-08-10T07:00Z",
+      "date": "Aug 7-10",
+      "detail": "Aug 7-10",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703525",
+      "athlete": {
+        "name": "Hideki Matsuyama",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+        "citizenship": "Japan",
+        "link": "https://www.espn.com/golf/player/_/id/5860/hideki-matsuyama"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "TPC Southwind - Memphis, TN",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "BMW Championship",
+      "startDate": "2025-08-14T07:00Z",
+      "endDate": "2025-08-17T07:00Z",
+      "date": "Aug 14-17",
+      "detail": "Aug 14-17",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703530",
+      "athlete": {
+        "name": "Keegan Bradley",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/4513/keegan-bradley"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Caves Valley Golf Club - Baltimore, MD",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "purse": "$20,000,000",
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "TOUR Championship",
+      "startDate": "2025-08-21T07:00Z",
+      "endDate": "2025-08-24T07:00Z",
+      "date": "Aug 21-24",
+      "detail": "Aug 21-24",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401703531",
+      "athlete": {
+        "name": "Scottie Scheffler",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "East Lake Golf Club - Atlanta, GA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Procore Championship",
+      "startDate": "2025-09-11T07:00Z",
+      "endDate": "2025-09-14T07:00Z",
+      "date": "Sep 11-14",
+      "detail": "Sep 11-14",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401738553",
+      "athlete": {
+        "name": "Patton Kizzire",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/3980/patton-kizzire"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Silverado Resort (North Course) - Napa, CA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Ryder Cup",
+      "startDate": "2025-09-26T07:00Z",
+      "endDate": "2025-09-28T07:00Z",
+      "date": "Sep 26-28",
+      "detail": "Sep 26-28",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401734110",
+      "athlete": {},
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Bethpage State Park - Bethpage, NY",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Sanderson Farms Championship",
+      "startDate": "2025-10-02T07:00Z",
+      "endDate": "2025-10-05T07:00Z",
+      "date": "Oct 2-5",
+      "detail": "Oct 2-5",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401738554",
+      "athlete": {
+        "name": "Kevin Yu",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/tpo.png",
+        "citizenship": "Chinese Taipei",
+        "link": "https://www.espn.com/golf/player/_/id/4349547/kevin-yu"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Country Club of Jackson - Jackson, MS",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Baycurrent Classic",
+      "startDate": "2025-10-09T07:00Z",
+      "endDate": "2025-10-12T07:00Z",
+      "date": "Oct 9-12",
+      "detail": "Oct 9-12",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401738555",
+      "athlete": {
+        "name": "Nico Echavarria",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+        "citizenship": "Colombia",
+        "link": "https://www.espn.com/golf/player/_/id/4408316/nico-echavarria"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Yokohama Country Club - Yokohama, Japan",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Black Desert Championship",
+      "startDate": "2025-10-23T07:00Z",
+      "endDate": "2025-10-26T07:00Z",
+      "date": "Oct 23-26",
+      "detail": "Oct 23-26",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401738556",
+      "athlete": {
+        "name": "Matt McCarty",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/4901368/matt-mccarty"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Black Desert Resort Golf Course - Ivins, UT",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "World Wide Technology Championship",
+      "startDate": "2025-11-06T08:00Z",
+      "endDate": "2025-11-09T08:00Z",
+      "date": "Nov 6-9",
+      "detail": "Nov 6-9",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401738557",
+      "athlete": {
+        "name": "Austin Eckroat",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/4425898/austin-eckroat"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "El Cardonal at Diamante - Cabo San Lucas, Mexico",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Butterfield Bermuda Championship",
+      "startDate": "2025-11-13T08:00Z",
+      "endDate": "2025-11-16T08:00Z",
+      "date": "Nov 13-16",
+      "detail": "Nov 13-16",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401738558",
+      "athlete": {
+        "name": "Rafael Campos",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/pur.png",
+        "citizenship": "Puerto Rico",
+        "link": "https://www.espn.com/golf/player/_/id/3683/rafael-campos"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Port Royal Golf Course - Southampton Parish, Bermuda",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "The RSM Classic",
+      "startDate": "2025-11-20T08:00Z",
+      "endDate": "2025-11-23T08:00Z",
+      "date": "Nov 20-23",
+      "detail": "Nov 20-23",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401738559",
+      "athlete": {
+        "name": "Maverick McNealy",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/9530/maverick-mcnealy"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Sea Island Resort (Seaside Course) - Saint Simons Island, GA",
+            "skipCityOrNameValidation": true
+          }
+        },
+        {
+          "venue": {
+            "fullName": "Sea Island Resort (Plantation Course) - Saint Simons Island, GA",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    },
+    {
+      "name": "Hero World Challenge",
+      "startDate": "2025-12-04T08:00Z",
+      "endDate": "2025-12-07T08:00Z",
+      "date": "Dec 4-7",
+      "detail": "Dec 4-7",
+      "description": "Scheduled",
+      "status": "pre",
+      "link": "https://www.espn.com/golf/leaderboard?tournamentId=401738560",
+      "athlete": {
+        "name": "Scottie Scheffler",
+        "flag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "citizenship": "United States",
+        "link": "https://www.espn.com/golf/player/_/id/9478/scottie-scheffler"
+      },
+      "locations": [
+        {
+          "venue": {
+            "fullName": "Albany GC - New Providence, Bahamas",
+            "skipCityOrNameValidation": true
+          }
+        }
+      ],
+      "score": "",
+      "isPostponedOrCanceled": false
+    }
+  ]
+}
