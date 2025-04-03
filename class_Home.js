@@ -6,15 +6,18 @@ import { Screen } from "./class_Screen.js";
 class HomeScreen extends Screen {
     constructor() {
 
-        // crear seccion <header> y <footer> standard
+        // llama a build() que construye header y footer standar
         super();
 
-        // crear seccion <main> del Home
-        this.buildMain();
+        // crear el main con menu de botones
+        this.buildAll ();
     }
 
-    // crear seccion <main> 
-    buildMain() {
+    // crear seccion <main>
+    buildAll(remake=false) {
+        if (remake) {
+            this.build();
+        }
         const container = document.querySelector("main");
         container.className="home__container";
 

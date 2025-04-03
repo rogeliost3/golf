@@ -5,19 +5,19 @@
 
 class Screen {
     constructor() {
-        console.log("Screen constructor");
         this.build();
     }
 
-    build(clear=false){
-        if (clear) {
-            this.#clearHeader();
-            this.clearMain();
-            this.#clearFooter();
-        }
+    //construye header y footer standard
+    build() {
+        this.#clearHeader();
+        this.clearMain();
+        this.#clearFooter(); 
+
         this.buildHeader();
         this.buildFooter();
     }
+
     //funciones de borrado para uso interno de la clase
 
     #clearHeader() {

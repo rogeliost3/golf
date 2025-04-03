@@ -47,8 +47,10 @@ class Router {
                 console.log("objScreen.screen: " + objScreen.screen);
 
                 // objScreen.screen.buildHeader();// resetea el header
-                objScreen.screen.build();// crea el contenido
 
+                //llamamos al buildAll de la pagina, con reset de header y footer
+                objScreen.screen.buildAll(true);
+                
             } else {
                 switch (screenName) {
                     case "home": {
