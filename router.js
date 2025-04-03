@@ -2,6 +2,7 @@
 import { ENDPOINT } from "./api.js";
 import { HomeScreen } from "./class_Home.js";
 import { NewsScreen } from "./class_News.js";
+import { LeaderboardScreen } from "./class_Leaderboard.js";
 
 //import { clearHeader, clearMain, makeHeader } from "./common.js";
 //import { makeNewsScreen } from "./news.js"; //,,,,
@@ -9,6 +10,8 @@ import { NewsScreen } from "./class_News.js";
 
 //TODO: pendiente hacer historial de navegacion y añadir opcion "back" real
 class Router {
+
+    //guarda cacheadas las pantallas del programa segun se vayan creando, solo las crea 1 vez
     static screens = [{ name: "home", screen: null }];
     static actualScreen = "";
 
@@ -50,6 +53,7 @@ class Router {
 
                 //llamamos al buildAll de la pagina, con reset de header y footer
                 objScreen.screen.buildAll(true);
+                Router.actualScreen=screenName;
                 
             } else {
                 switch (screenName) {
@@ -63,6 +67,11 @@ class Router {
                     }
                     case "leaderboard": {
                         console.log("saltar a Leaderboard");
+                        if (objScreen.screen===null) {
+                            objScreen.screen = new LeaderboardScreen();
+                        } else {
+                            console.log("no se pudo crear LeaderboardScreen, objScreen: "+typeof objScreen+" "+objScreen);
+                        }
                         break;
                     }
                     case "schedule": {
@@ -96,10 +105,6 @@ class Router {
                     }
                 }
                 Router.actualScreen = screenName;
-                /*clearHeader();
-                buildHeader();
-                clearMain();
-                buildMainScreen();*/
             }
         }
     }

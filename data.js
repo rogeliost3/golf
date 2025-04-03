@@ -1,6 +1,114 @@
 
 const dataMockups = [
-    { name: "leaderboard", data: undefined },
+    { 
+        name: "leaderboard", data: 
+        {
+            "events":[
+                {
+                    "id": 1,
+                    "date": "2025-03-29",
+                    "endaDate": "2025-03-31",
+                    "shortName": "Masters Tournament",
+                    "displayPurse": "$20.000.000",
+                    "links": [{"href": "https://www.espn.com/golf/leaderboard"}],
+                    "tournament": {
+                        "major":true,
+                        "scoringSystem":{"name": "Medal"},
+                        "numberOfRounds":4,
+                        "cutRound":2
+                    },
+                    "status": {
+                        "type":{"completed":true}
+                    },
+                    "winner": {
+                        "id": 1,
+                        "displayName":"Jon Rahm"
+                    },
+                    "competitors":[{
+                        "id": 1,
+                        "status": {
+                            "displayValue": "F",
+                            "hole":18,
+                            "detail": "+1(F)",
+                            "position": {
+                                "displayName": "T6",
+                                "isTie": true
+                            }
+                        },
+                        "score":{
+                            "value":286,
+                            "displayName":"-2"
+                        },
+                        "athlete":{
+                            "id":"10046",
+                            "displayName":"Anthon DeChambeau",
+                            "headshot":{
+                                "href":"https://a.espncdn.com/i/headshots/golf/players/full/10046.png",
+                                "alt":"United States"
+                            },
+                            "flag":{
+                                "href":"https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                "alt":"United States"
+                            },
+                            "links":[{"href":"https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau"}]
+                        }
+                    }]
+                }, 
+                {
+                    "id": 2,
+                    "date": "2025-05-29",
+                    "endaDate": "2025-05-31",
+                    "shortName": "Open Augusta",
+                    "displayPurse": "$50.000.000",
+                    "links": [{"href": "https://www.espn.com/golf/leaderboard"}],
+                    "tournament": {
+                        "major":true,
+                        "scoringSystem":{"name": "Medal"},
+                        "numberOfRounds":4,
+                        "cutRound":2
+                    },
+                    "status": {
+                        "type":{"completed":true}
+                    },
+                    "winner": {
+                        "id": 1,
+                        "displayName":"Peter Malnati"
+                    },
+                    "competitors":[{
+                        "id": 1,
+                        "status": {
+                            "displayValue": "F",
+                            "hole":18,
+                            "detail": "+1(F)",
+                            "position": {
+                                "displayName": "T6",
+                                "isTie": true
+                            }
+                        },
+                        "score":{
+                            "value":345,
+                            "displayName":"-1"
+                        },
+                        "athlete":{
+                            "id":"10047",
+                            "displayName":"Peper Malnati",
+                            "headshot":{
+                                "href":"https://a.espncdn.com/i/headshots/golf/players/full/10046.png",
+                                "alt":"United States"
+                            },
+                            "flag":{
+                                "href":"https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                "alt":"United States"
+                            },
+                            "links":[{"href":"https://www.espn.com/golf/player/_/id/10046/bryson-dechambeau"}]
+                        }
+                    }]
+                },  
+
+            ]
+        }
+    },      
+
     { name: "schedule", data: undefined },
     { name: "tour-schedule", data: undefined },
     {
