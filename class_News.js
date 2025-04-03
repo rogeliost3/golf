@@ -22,14 +22,14 @@ class NewsScreen extends Screen {
     }
 
     //sobreescribimos el metodo buildAll para construir la seccion <main> de news
-    buildAll( remake=false ) {
+    buildAll(remake = false) {
         if (remake) {
             //reseteo header y footer cuando ya tenemos la instancia creada
             this.build();
         }
 
-        let container=document.querySelector("main");
-        container.className="news__container";
+        let container = document.querySelector("main");
+        container.className = "news__container";
 
         makeWhereText("News");
         makeBackButton();
@@ -40,7 +40,7 @@ class NewsScreen extends Screen {
         selectLeague.addEventListener("change",
 
             // Traer noticias cuando cambie el combobox
-             (event) => {
+            (event) => {
                 const ligueSelected = selectLeague.value;
                 this.clearMain();
                 this.showNews(ligueSelected);
@@ -58,7 +58,7 @@ class NewsScreen extends Screen {
         console.log("en fetchNews");
         //si no ha sido cacheado llamar a fetch, y si ya lo fue devolver caché
         try {
-            if (! this.cache.isCached(league)) {
+            if (!this.cache.isCached(league)) {
                 console.log("calling API fetch in News for league:" + league);
                 this.cache.setCache(league, await fetchData(fullUrl)) //this.cache[league] = await fetchData(fullUrl);
             } else {
@@ -74,37 +74,30 @@ class NewsScreen extends Screen {
 
     async showNews(league) {
 
-        
-        /* elimino estas validaciones, suponemos que league siempre es correcta
-        let data;
-        const league = LEAGUES.find(item => { item.value == leagueName });
-
-        if (league != undefined) {
-            data = await fetchNews(leagueName, 7);
-        }*/
-
         //traemos los datos de la liga seleccionada
         let data = await this.fetchNews(league);
+        console.log("data: " + JSON.stringify(data, null, 4));
 
-        //obtener el contenedor main. TODO: Podria ponerse como propiedad del objeto
-        const main = document.querySelector("main");
+        if (data !== undefined && data !== null) {
+            //obtener el contenedor main. TODO: Podria ponerse como propiedad del objeto
+            const main = document.querySelector("main");
 
-        //construye el html con las noticias
-        data.forEach(news => {
-            console.log("creando " + news.images[0].id);
-            const newsCard = document.createElement("article");
-            newsCard.classList.add("news__card");
-            newsCard.innerHTML = `
-                <img src=\"${news.images[0].url}\" alt=\"${news.headline}\">
-                <h5>${news.images[0].credit != undefined ? news.images[0].credit : ""}</h5>
-                <h3>${news.headline}</h3>
-                <h5>${news.published.slice(0, news.published.indexOf("T"))}</h5>
-                <p>${news.description}</p>
-                <a href=\"${news.link}\" target=\"_blank\">Read more</a>
-                <br>
-            `;
-            main.appendChild(newsCard);
-        });
+            //construye el html con las noticias
+            data.forEach(news => {
+                const newsCard = document.createElement("article");
+                newsCard.classList.add("news__card");
+                newsCard.innerHTML = `
+                    <img src=\"${news.images[0].url}\" alt=\"${news.headline}\">
+                    <h5>${news.images[0].credit != undefined ? news.images[0].credit : ""}</h5>
+                    <h3>${news.headline}</h3>
+                    <h5>${news.published.slice(0, news.published.indexOf("T"))}</h5>
+                    <p>${news.description}</p>
+                    <a href=\"${news.link}\" target=\"_blank\">Read more</a>
+                    <br>
+                `;
+                main.appendChild(newsCard);
+            });
+        }
     }
 
 }

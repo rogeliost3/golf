@@ -66,20 +66,20 @@ function makeBackButton() {
 
     // Agregar el EventListener al enlace
     imagen.addEventListener("click", (event) => {
-        Router.routeTo("home"); // TODO: hacer la opcion routeTo("back"); y que haya un historial de navegacion
+        Router.routeTo("home"); 
     });
 
 }
 
+//en header, poner texto de donde estamos
 function makeWhereText(text) {
-
     const header = document.getElementById("header__title");
-    const h5a = document.createElement("h5");
-    const h5b = document.createElement("h5");
-    h5a.textContent = "-";
-    header.appendChild(h5a);
-    h5b.textContent = text;
-    header.appendChild(h5b);
+    const h4div = document.createElement("div");
+    h4div.setAttribute("id", "header__where");
+    const h4 = document.createElement("h4");
+    h4.textContent = text;
+    h4div.appendChild(h4);
+    header.appendChild(h4div);
 }
 
 export { makeComboLeague, makeBackButton, makeWhereText };

@@ -2,6 +2,9 @@ import { APIKEY, HOST } from "./apikey.js";
 import { urls } from "./data.js";
 import {readJsonFile} from "./scrapper.js";
 
+const   APP_NAME= "Golf Tracker",
+        VERSION_APP= "0.0.5";
+
 const ENDPOINT = [ 
 
     /*This endpoint retrieves the leaderboard for a specific golf event within a chosen league. 
@@ -128,46 +131,5 @@ async function fetchData(fullUrl) {
 
 
 
-export { fetchData, LEAGUES, ENDPOINT};
+export { fetchData, LEAGUES, ENDPOINT, APP_NAME, VERSION_APP };
 
-
-// const ENDPOINT = [ 
-//     { name: "leaderboard", display: "Leaderboard",
-//         params: ["league", "limit"]},
-
-//     { name: "schedule", display: "Schedule",
-//         params:["season"]},
-
-//     { name: "scoreboard", display: "Scoreboard",
-//         params:["year","month","day","league","limit"]},
-
-//     { name: "rankings", display: "Rankings",
-//          params:["seasonType","limit"]}, 
-
-
-//     { name: "news", display: "News",
-//         params:["league","limit"]},
-
-//     { name: "standings", display: "Standings",
-//         params:["seasonType","limit"]} 
-//     ];
-/*
-    try {
-        let response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
-
-        if (!response.ok) {
-            throw new Error(`Error en la solicitud: ${response.status}`);
-        }
-
-        let contentType = response.headers.get("content-type");
-        if (contentType && contentType.includes("application/json")) {
-            let data = await response.json();
-            console.log(data);
-        } else {
-            throw new Error("La respuesta no es JSON");
-        }
-
-    } catch (error) {
-        console.error('Error:', error);
-    }
-*/
