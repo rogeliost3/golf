@@ -6,20 +6,31 @@ Marzo 2025
 # Descripción general de la API
 
 Esta API de la ESPN americana, proporciona datos fiables de torneos de golf y ligas en tiempo real, incluidas clasificaciones, tablas de clasificación, 
-tarjetas de puntuación, resultados, estadísticas y una gran cantidad de información adicional.
+tarjetas de puntuación, resultados, estadísticas y una gran cantidad de información adicional. También frece acceso en tiempo real a los datos de torneos de golf
 Incluye las tres ligas mas importantes del mundo, la PGA, la LIV y DP World.
 
-Con el tiempo disponible se ha implementado Noticias por ligas y Leaderboard por ligas.
+Se ha implementado Noticias por ligas y Leaderboard por ligas. En el futuro se harán los restantes botones de menú.
 Dada la gran cantidad de datos disponibles se ha hecho un cribado para mostrar lo mas importante o básico.
 
-API de datos de golf en vivo
-La API de Datos de Golf en Vivo ofrece acceso en tiempo real a los datos de torneos de golf
-
-El punto final siempre devuelve un objeto JSON.
+El endpoint siempre devuelve un objeto JSON.
 
 Los endpoints que recuperan informacion de jugadores requieren un id de jugador, pero la API no proporciona un listado de jugadores con sus id,
-asi que estos endpoints no han sido implementados, porque habria que hacer un trabajo extra de averiguar ids desde otros json, y el tiempo ha sido limitado.
+asi que estos endpoints no han sido implementados, porque habria que hacer un trabajo extra para averiguar ids desde otros json.
 
+# Caracteristicas de la APP
+Desarrollo Mobile First 
+Empleo de Clases y Orientación a Objetos 
+  Métodos estáticos 
+  Herencia 
+  Encapsulamiento 
+Empleo de localStorage para Favoritos (jugadores)
+Empleo de la API de datos de Golf de la ESPN ($$). Rápida y con mucha información
+Fetchs cacheados.
+Empleo de una clase “router” para el tratamiento de las peticiones de redirección a las distintas páginas de la web.
+Desarrollo de un ghostFetch con datos descargados a disco, para no emplear el fetch en tiempo de desarrollo y economizar gasto de API.
+Diseño más trabajado.
+
+# Endpoints disponibles
 # Endpoint NEWS
 ## Descripción
 Este punto final recupera noticias sobre eventos de golf de una liga específica o de todas las ligas. Proporciona acceso a las últimas noticias, actualizaciones e historias relacionadas con el golf.
