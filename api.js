@@ -164,9 +164,8 @@ async function fetchData(fullUrl) {
 
     //DESDE AQUI PARA OBTENER DATOS MOCKUP ------------------------------------
     result = await ghostFetch(fullUrl, OPTIONS); 
-
     //HASTA AQUI PARA OBTENER DATOS MOCKUP ------------------------------------
-    //console.log("result: "+JSON.stringify(result,null,4));
+
     return result;
 }
 
