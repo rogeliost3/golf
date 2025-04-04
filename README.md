@@ -5,7 +5,7 @@ Marzo 2025
 
 # Descripción general de la API
 
-Esta API proporciona datos de torneos de golf y ligas en tiempo real, incluidas clasificaciones, tablas de clasificación, 
+Esta API de la ESPN americana, proporciona datos fiables de torneos de golf y ligas en tiempo real, incluidas clasificaciones, tablas de clasificación, 
 tarjetas de puntuación, resultados, estadísticas y una gran cantidad de información adicional.
 Incluye las tres ligas mas importantes del mundo, la PGA, la LIV y DP World.
 
