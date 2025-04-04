@@ -3,6 +3,7 @@
 
 import { Screen } from "./class_Screen.js";
 import { Cache } from "./class_Cache.js";
+import { FavoritesManager } from "./class_Favorites.js";
 
 import { fetchData } from "./api.js";
 import { makeComboLeague, makeBackButton, makeWhereText } from "./common.js"; //TODO: a extinguir, crear clases
@@ -14,7 +15,7 @@ class LeaderboardScreen extends Screen {
 
         // llama a build() que construye header y footer standar
         super();
-
+        this.favoritesManager = new FavoritesManager();
         this.endPoint = "/leaderboard";
         this.cache = new Cache();
         this.buildAll();
@@ -75,8 +76,6 @@ class LeaderboardScreen extends Screen {
         console.log("data: " + JSON.stringify(data, null, 4));
         if (data !== undefined && data !== null) {
 
-            console.log("data: " + JSON.stringify(data, null, 4));
-
             //obtener el contenedor main. 
             const main = document.querySelector("main");
 
@@ -99,22 +98,40 @@ class LeaderboardScreen extends Screen {
 
                 const playersList = document.createElement("ul");
                 event.competitions[0].competitors.forEach(player => {
+
+                    /*Gestion de favoritos*/
+                    const id = player.athlete.id;
+                    const star = document.createElement("span");
+                    star.className = "favorite";
+                    star.setAttribute("data-id", id);
+
+                    console.log("id: " + id+ " type: " + typeof id);
+                    this.favoritesManager.favorites.forEach((id) => console.log("id: " + id + "type: " + typeof id));
+
+                    star.textContent = this.favoritesManager.favorites.has(Number(id)) ? '★' : '☆';
+                    star.addEventListener('click', (event) => {
+                        const playerId = parseInt(event.target.dataset.id);
+                        this.favoritesManager.toggleFavorite(playerId);
+                    });
                     const playerItem = document.createElement("li");
                     playerItem.className = "leaderboard__block";
+                    
                     playerItem.innerHTML = `
-                    <div>
+                    <div class="leaderboard__info">
                         <img src="${player.athlete.flag.href}" alt="${player.athlete.flag.alt}" width="15%">
                         <a href="${player.athlete.links[0].href} target="_blank">
-                            <img src="${player.athlete.headshot.href}" alt="${player.athlete.headshot.alt}" width="25%">
+                            <img src="${player.athlete.headshot.href}" alt="${player.athlete.headshot.alt}" width="70%">
                         </a>
                         <span><strong>${player.athlete.displayName}</strong></span>
                     </div>
-                    <div class="leaderboard__player-info">
-                    <p><strong>Estado:</strong> ${player.status.displayValue}  |  <strong>Hoyos:</strong> ${player.status.hole}</p>
-                    <p><strong>Detalle:</strong> ${player.status.detail}  |  <strong>Posición:</strong> ${player.status.position.displayName}</p>
-                    <p><strong>Puntuación:</strong> ${player.score.value}</p>
-                `;
+                    <div class="leaderboard__subinfo">
+                        <p><strong>Estado:</strong> ${player.status.displayValue}  |  <strong>Hoyos:</strong> ${player.status.hole}</p>
+                        <p><strong>Detalle:</strong> ${player.status.detail}  |  <strong>Posición:</strong> ${player.status.position.displayName}</p>
+                        <p><strong>Puntuación:</strong> ${player.score.value}</p> 
+                    </div>
+                    `;
                     playersList.appendChild(playerItem);
+                    playerItem.querySelector(".leaderboard__info").appendChild(star);                
                 });
                 eventBlock.appendChild(playersList);
                 main.appendChild(eventBlock);
@@ -124,7 +141,6 @@ class LeaderboardScreen extends Screen {
         }
     }
 }
-
 
 export { LeaderboardScreen }
 
