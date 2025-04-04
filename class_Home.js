@@ -1,4 +1,4 @@
-import { Router } from "./router.js";
+import { Router } from "./class_Router.js";
 import { Screen } from "./class_Screen.js";
 
 
@@ -23,13 +23,13 @@ class HomeScreen extends Screen {
 
         //creacion de elementos
         const buttonCourses = document.createElement("buttonCourses"),
-            buttonLeaderboard = document.createElement("buttonLeaderboard"),
-            buttonSchedule = document.createElement("buttonSchedule"),
-            buttonTourSchedule = document.createElement("buttonTourSchedule"),
-            buttonScoreboard = document.createElement("buttonScoreboard"),
-            buttonRankings = document.createElement("buttonRankings"),
-            buttonNews = document.createElement("buttonNews"),
-            buttonPlayers = document.createElement("buttonPlayerss");
+        buttonLeaderboard = document.createElement("buttonLeaderboard"),
+        buttonSchedule = document.createElement("buttonSchedule"),
+        buttonTourSchedule = document.createElement("buttonTourSchedule"),
+        buttonScoreboard = document.createElement("buttonScoreboard"),
+        buttonRankings = document.createElement("buttonRankings"),
+        buttonNews = document.createElement("buttonNews"),
+        buttonPlayers = document.createElement("buttonPlayerss");
 
         //poner texto a los botones
         buttonCourses.textContent = "Courses";

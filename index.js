@@ -1,4 +1,4 @@
-import { Router } from "./router.js";
+import { Router } from "./class_Router.js";
 
 //crear instancia de la clase HomeScreen para la pantalla inicial del index.html
 //const homeScreen=new HomeScreen();
@@ -14,7 +14,7 @@ Router.routeTo("home");
 // PANTALLA INICIAL
 /*
 import { makeHeader,makeFooter } from "./common.js";
-import { routeTo } from "./router.js";
+import { routeTo } from "./class_Router.js";
 */
 //ya oop
 //crear objeto menu

@@ -4,6 +4,9 @@ import {readJsonFile} from "./common.js";
 const   APP_NAME= "Golf Tracker",
         VERSION_APP= "0.0.5",
 
+// ruta a archivos de datos json descargados para simular la API y usar ghostFetch
+//y la url a la llamada de la API real que los provee
+
 urls=[
     {
         "url": "https://live-golf-data1.p.rapidapi.com/leaderboard?league=all", 
@@ -51,7 +54,7 @@ urls=[
     }
     ];
 
-
+// Endpoints de la API y los parametros de cada uno
 const ENDPOINT = [ 
 
     /*This endpoint retrieves the leaderboard for a specific golf event within a chosen league. 
@@ -86,14 +89,12 @@ const ENDPOINT = [
 
     /*This endpoint retrieves the schedule for golf tours within a specific season. 
     It provides information about upcoming tournaments, dates, locations, and other relevant details. */ 
-
-
     /*{ name: "tour-schedule", display: "TOUR_SCHEDULE",
         params:["season"]},*/
 
 ];
     
-// Ligas accesibles en el API
+// Ligas accesibles en el API, usado en el combobox de seleccion de ligas, entre otros
 const LEAGUES = [
     { value: "all", text: "Todas", selected: true },
     { value: "lpga", text: "LPGA The Chevron Championship" },
@@ -103,6 +104,7 @@ const LEAGUES = [
     { value: "ntw", text: "NTW Korn Ferry" }
 ];
 
+// Headers de la llamada a la API
 const OPTIONS = {
     method: 'GET',
     headers: {
@@ -112,6 +114,7 @@ const OPTIONS = {
 };
 
 
+// GHOSTFETCH
 // La API es de pago y solo da unos fetchs mensuales gratuitos. 
 // Dado que agoté pronto los que tenia, realicé una nueva cuenta y descargué a archivos los json obtenidos.
 // Esta funcion funciona como API simulada, devolviendo datos guardados en disco. 
@@ -120,28 +123,23 @@ async function ghostFetch(fullUrl, options=null) {
 
     // devuelve datos dentro del Promise
     return new Promise((resolve, reject) => {
-        console.log("me dispongo a buscar "+fullUrl.href);
         let foundItem = urls.find(item => fullUrl.href.includes(item.url));
 
         //si filename no es null, se devuelve el item.url, si es null no se devuelve nada
         let filename = foundItem?.fileName || null; 
         
         if (filename) {
-            console.log(fullUrl+" encontrada como "+foundItem.url);
             try {
                 let result = readJsonFile(filename);
                 if (result==null) {
                     reject("No se puede leer "+filename);
                 } else {
-                    console.log(filename+" leido ok");
                     resolve(result);
                 }
               } catch (error) {
-                console.error('Error al cargar el JSON:', error);
                 reject(error);
               }
         } else {
-            console.log("no se encuentra "+fullUrl+" en urls.");
             reject("No se encuentra "+fullUrl+" en urls.");
         }
     });
@@ -150,16 +148,18 @@ async function ghostFetch(fullUrl, options=null) {
 async function fetchData(fullUrl) {
 
     let result="";
-    console.log("fetching "+fullUrl);
-    /* DESDE AQUI PARA OBTENER DATOS VIA FETCH DE LA API ------------------------------------ */
-    /*const response = await fetch(fullUrl, OPTIONS); 
+
+    /* DESCOMENTAR DESDE AQUI PARA OBTENER DATOS VIA FETCH REAL DE LA API ------------------------------------ */
+    /*
+    const response = await fetch(fullUrl, OPTIONS); 
     if (!response.ok) {
         console.log("error en response");
         throw new Error(response.status); // la lanzo yo
     } else {
         console.log("response a json");
         result = await response.json(); // no lanza excepcion. Convierte el texto JSON a objeto o array manejable
-    }*/
+    }
+    */
     /*HASTA AQUI PARA OBTENER DATOS VIA FETCH DE LA API ------------------------------------ */
 
     //DESDE AQUI PARA OBTENER DATOS MOCKUP ------------------------------------
@@ -170,7 +170,5 @@ async function fetchData(fullUrl) {
     return result;
 }
 
-
-
-export { fetchData, LEAGUES, ENDPOINT, APP_NAME, VERSION_APP };
+export { fetchData, LEAGUES, ENDPOINT, APP_NAME };
 
