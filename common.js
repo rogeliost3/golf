@@ -1,5 +1,5 @@
 import { LEAGUES } from "./api.js";
-import { Router } from "./router.js";
+import { Router } from "./class_Router.js";
 
 //crear objeto combo
 function makeComboLeague(buttonSearch = null) {
@@ -83,17 +83,14 @@ function makeWhereText(text) {
 }
 
 async function readJsonFile(ruta) {
-    console.log(`Cargando archivo JSON desde ${ruta}`);
     const response = await fetch(ruta);
     
     // Verificar si la respuesta fue exitosa
     if (!response || !response.ok) {
-      console.error(`Error HTTP: ${response?.status}`);
       throw new Error(`Error HTTP: ${response?.status}`);
     }
     
     // Convertir y retornar los datos JSON
-    console.log("response ok, pasando a json");
     const data = await response.json();
     if (!data) {
       throw new Error("Error al parsear el JSON");

@@ -1,4 +1,7 @@
 
+//Archivo con las estructuras de los datos mas relevantes que nos interesan mostrar, extraidos de los json que devuelve la API
+//No tiene uso en la web principal, solo es de apoyo para la creacion de las pantallas y saber que campos incluir
+//es un trabajo no finalizado porque es pesasdo y requiere cierto tiempo para el estudio de cada json
 const dataMockups = [
     { 
         name: "leaderboard", data: 
@@ -274,101 +277,3 @@ const dataMockups = [
     { name: "standings", data: undefined }
 ]
 
-const urls=[
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/leaderboard?league=all", 
-      "fileName": "./scrapped_data/leaderboard-league_all.json"
-    },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/leaderboard?league=lpga",
-    //   "fileName": "./scrapped_data/leaderboard-league_lpga.json"
-    // },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/leaderboard?league=champions-tour",
-    //   "fileName": "./scrapped_data/leaderboard-league_champions-tour.json"
-    // },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/leaderboard?league=liv",
-    //   "fileName": "./scrapped_data/leaderboard-league_liv.json"
-    // },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/leaderboard?league=eur",
-    //   "fileName": "./scrapped_data/leaderboard-league_eur.json"
-    // },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/leaderboard?league=ntw",
-    //   "fileName": "./scrapped_data/leaderboard-league_ntw.json"
-    // },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/leaderboard?",
-    //   "fileName": "./scrapped_data/leaderboard.json"
-    // },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/schedule?season=2025",
-      "fileName": "./scrapped_data/schedule_season.json"
-    },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/scoreboard?year=2025&month=3&day=27&league=all",
-    //   "fileName": "./scrapped_data/scoreboard-league_all.json"
-    // },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/scoreboard?year=2025&month=3&day=27&league=lpga",
-      "fileName": "./scrapped_data/scoreboard-league_lpga.json"
-    },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/scoreboard?year=2025&month=3&day=27&league=champions-tour",
-    //   "fileName": "./scrapped_data/scoreboard-league_champions-tour.json"
-    // },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/scoreboard?year=2025&month=3&day=27&league=liv",
-    //   "fileName": "./scrapped_data/scoreboard-league_liv.json"
-    // },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/scoreboard?year=2025&month=3&day=27&league=eur",
-    //   "fileName": "./scrapped_data/scoreboard-league_eur.json"
-    // },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/scoreboard?year=2025&month=3&day=27&league=ntw",
-    //   "fileName": "./scrapped_data/scoreboard-league_ntw.json"
-    // },
-    // {
-    //   "url": "https://live-golf-data1.p.rapidapi.com/scoreboard?year=2025&month=3&day=27",
-    //   "fileName": "./scrapped_data/scoreboard_date.json"
-    // },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/rankings",
-      "fileName": "./scrapped_data/rankings.json"
-    },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/news?league=all",
-      "fileName": "./scrapped_data/news-league_all.json"
-    },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/news?league=lpga",
-      "fileName": "./scrapped_data/news-league_lpga.json"
-    },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/news?league=champions-tour",
-      "fileName": "./scrapped_data/news-league_champions-tour.json"
-    },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/news?league=liv",
-      "fileName": "./scrapped_data/news-league_liv.json"
-    },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/news?league=eur",
-      "fileName": "./scrapped_data/news-league_eur.json"
-    },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/news?league=ntw",
-      "fileName": "./scrapped_data/news-league_ntw.json"
-    },
-    {
-      "url": "https://live-golf-data1.p.rapidapi.com/standings",
-      "fileName": "./scrapped_data/standings.json"
-    }
-  ];
-
-
-
-export { dataMockups, urls }

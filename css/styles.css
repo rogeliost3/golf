@@ -1,16 +1,16 @@
 :root {
     --main-color: red;
     --header-color: #00ac1c;
-    --footer-color:var(--header-color);
+    --footer-color: var(--header-color);
 
-    --header-height:3rem;
-    --footer-height:2rem;
+    --header-height: 3rem;
+    --footer-height: 2rem;
 
-    --titleapp-color:rgb(0 255 81);
+    --titleapp-color: rgb(0 255 81);
     --page-max-width: 1200px;
 
     --box-color: lightgray;
-    --box-shadows: 5px 6px 10px 0px rgba(0,0,0,0.75);
+    --box-shadows: 5px 6px 10px 0px rgba(0, 0, 0, 0.75);
 
     --main-button-color: rgb(225 225 225 / 75%);
     --img-background: url('../assets/bgMain.png');
@@ -44,11 +44,12 @@ body {
 }
 
 /* Header & Footer styles*/
+
 #header__logo-txt {
     color: var(--titleapp-color);
     font-weight: 800;
     font-size: 1.6rem;
-    margin:0;
+    margin: 0;
     text-shadow: 3px 2px 2px black;
 }
 
@@ -57,7 +58,8 @@ body {
     height: 2rem;
 }
 
-header, footer {
+header,
+footer {
     background-color: var(--header-color);
     position: fixed;
     width: 100%;
@@ -70,7 +72,7 @@ header {
 }
 
 footer {
-    bottom:0;
+    bottom: 0;
 }
 
 header h5 {
@@ -87,22 +89,25 @@ header h5 {
 }
 
 #header__title {
-    display: flex;  
-    align-items: center; 
-    padding: 0 10px 0; 
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0;
 }
 
 
 /* <main> style */
+
 main {
     flex: 1;
     width: 100%;
-    min-height: calc(100vh - 120px); /* Ajusta según el alto de header y footer */
+    min-height: calc(100vh - 120px);
+    /* Ajusta según el alto de header y footer */
     padding: var(--header-height) 20px var(--footer-height) 20px;
     background-color: var(--main-color);
 }
 
 /* Home styles */
+
 main.home__container {
     padding-top: var(--header-height);
     display: flex;
@@ -122,7 +127,7 @@ main.home__container {
 
 .main__button {
     background-color: var(--main-button-color);
-    margin : 5px;
+    margin: 5px;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
@@ -132,8 +137,10 @@ main.home__container {
 }
 
 /* News styles */
+
 main.news__container {
-    padding-top: calc(var(--header-height) * 2); /* abre hueco para el buscador bajo el header*/
+    /* abre hueco para el buscador bajo el header*/
+    padding-top: calc(var(--header-height) * 2);
 }
 
 .news__card {
@@ -179,21 +186,15 @@ main.news__container {
 }
 
 /* Leaderboard styles */
+
 main.leaderboard__container {
-    padding-top: calc(var(--header-height) * 2); /* abre hueco para el buscador bajo el header*/
+    /* abre hueco para el buscador bajo el header*/
+    padding-top: calc(var(--header-height) * 2);
 }
 
 .leaderboard__event-block {
-    /*font-size:1.5rem;
-    padding: 1% 4%;
-    display: flex;*/
-    margin-top:5%;
-    /* sombra */
-    /* -webkit-box-shadow: var(--box-shadows);
-    -moz-box-shadow: var(--box-shadows);
-    box-shadow: var(--box-shadows); */
+    margin-top: 5%;
 }
-
 
 .leaderboard__block {
     border-radius: 10px;
@@ -204,9 +205,8 @@ main.leaderboard__container {
 
     -webkit-box-shadow: var(--box-shadows);
     -moz-box-shadow: var(--box-shadows);
-    box-shadow: var(--box-shadows); 
+    box-shadow: var(--box-shadows);
 }
-
 
 .leaderboard__info {
     display: flex;
@@ -222,7 +222,7 @@ main.leaderboard__container {
 }
 
 .leaderboard__head-info a {
-    width:25%;
+    width: 25%;
 }
 
 .leaderboard__head-info span {
@@ -231,6 +231,7 @@ main.leaderboard__container {
 }
 
 /* Buscador styles */
+
 #form__buscar {
     display: flex;
     background-color: var(--box-color);
@@ -250,6 +251,7 @@ main.leaderboard__container {
 }
 
 /*Boton de regreso*/
+
 #button__back {
     height: 3rem;
     padding: 9px 0;
@@ -263,6 +265,7 @@ main.leaderboard__container {
 }
 
 /* Footer para todas las screens */
+
 footer h5 {
     height: var(--footer-height);
     margin-left: 4%;
@@ -273,21 +276,16 @@ footer h5 {
 
 
 @media (min-width: 1001px) and (max-width: 2048px) {
-    
+
     main.home__container {
-        display:block;
+        display: block;
     }
 
-    .news__card{
+    .news__card {
         min-width: 40%;
         max-width: 40%;
         margin: 2% 0%;
     }
-
-    /*.leaderboard__block {
-        min-width: 40%;
-        max-width: 40%;
-    }*/
 
     main {
         display: flex;
@@ -300,32 +298,21 @@ footer h5 {
 }
 
 /*mostrar botonera home en vertical*/
+
 @media (min-width: 0px) and (max-width: 1000px) {
 
     main.home__container {
-        display:flex;
+        display: flex;
     }
 
-    .news__card{
+    .news__card {
         min-width: 40%;
         max-width: none;
         margin: 10% 0%;
     }
 
-    /*.leaderboard__block {
-        min-width: 40%;
-        max-width: none;
-        margin: 2% 0%;
-    }*/
-
-    main{
+    main {
         display: block;
     }
 
 }
-
-
-
-
-
-
