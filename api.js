@@ -1,9 +1,56 @@
 import { APIKEY, HOST } from "./apikey.js";
-import { urls } from "./data.js";
-import {readJsonFile} from "./scrapper.js";
+import {readJsonFile} from "./common.js";
 
 const   APP_NAME= "Golf Tracker",
-        VERSION_APP= "0.0.5";
+        VERSION_APP= "0.0.5",
+
+urls=[
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/leaderboard?league=all", 
+        "fileName": "./scrapped_data/leaderboard-league_all.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/schedule?season=2025",
+        "fileName": "./scrapped_data/schedule_season.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/scoreboard?year=2025&month=3&day=27&league=lpga",
+        "fileName": "./scrapped_data/scoreboard-league_lpga.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/rankings",
+        "fileName": "./scrapped_data/rankings.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/news?league=all",
+        "fileName": "./scrapped_data/news-league_all.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/news?league=lpga",
+        "fileName": "./scrapped_data/news-league_lpga.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/news?league=champions-tour",
+        "fileName": "./scrapped_data/news-league_champions-tour.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/news?league=liv",
+        "fileName": "./scrapped_data/news-league_liv.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/news?league=eur",
+        "fileName": "./scrapped_data/news-league_eur.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/news?league=ntw",
+        "fileName": "./scrapped_data/news-league_ntw.json"
+    },
+    {
+        "url": "https://live-golf-data1.p.rapidapi.com/standings",
+        "fileName": "./scrapped_data/standings.json"
+    }
+    ];
+
 
 const ENDPOINT = [ 
 
@@ -44,12 +91,6 @@ const ENDPOINT = [
     /*{ name: "tour-schedule", display: "TOUR_SCHEDULE",
         params:["season"]},*/
 
-/*    { name: "player-overview", display: "OVERVIEW"},
-    { name: "player-leaderboard", display: "LEADERBOARD"},
-    { name: "player-stats", display: "STATS"},
-    { name: "player-results", display: "RESULTS"},
-    { name: "player-scorecard", display: "SCORECARD"},
-    { name: "player-info", display: "INFO"}*/
 ];
     
 // Ligas accesibles en el API
