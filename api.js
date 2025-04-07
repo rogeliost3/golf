@@ -118,7 +118,6 @@ const OPTIONS = {
 // La API es de pago y solo da unos fetchs mensuales gratuitos. 
 // Dado que agoté pronto los que tenia, realicé una nueva cuenta y descargué a archivos los json obtenidos.
 // Esta funcion funciona como API simulada, devolviendo datos guardados en disco. 
-// Empleo de IA para poder avanzar en el proyecto dado el contratiempo encontrado.
 async function ghostFetch(fullUrl, options=null) {
 
     // devuelve datos dentro del Promise
